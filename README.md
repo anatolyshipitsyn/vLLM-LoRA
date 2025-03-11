@@ -21,11 +21,6 @@
      --uvicorn-log-level debug
    ```
 
-   Alternatively, serve a custom merged model using:
-   ```bash
-   vllm serve /path/to/merged_model
-   ```
-
 4. **Deploy the Frontend Application**
    Run the following Docker command to start a Next.js-based UI:
    ```bash
