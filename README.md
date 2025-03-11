@@ -38,7 +38,7 @@ To interact with the vLLM server, send a POST request using the following format
 curl -X POST http://localhost:8000/v1/chat/completions \
      -H "Content-Type: application/json" \
      -d '{
-          "model": "./merged_model",
+          "model": "redmine-lora",
           "messages": [{"role": "user", "content": "List all my projects"}]
         }'
 ```
