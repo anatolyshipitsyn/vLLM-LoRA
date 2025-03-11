@@ -17,7 +17,7 @@
    ```bash
    vllm serve deepseek-ai/deepseek-llm-7b-chat \
      --enable-lora \
-     --lora-modules redmine-lora=/path/to/lora_adapter \
+     --lora-modules redmine-lora=./lora_adapter \
      --uvicorn-log-level debug
    ```
 
